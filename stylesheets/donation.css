@@ -9,11 +9,29 @@ h1 {
   }
 
 body {
-  
   opacity: 1;
+}
 
-  /* top: 120px;
-  left: 0px;
-  width: 1440px;
-  height: 1224px; */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+@font-face {
+  font-family: Flood;
+  src: url('../fonts/FloodStd.otf')  format('opentype');
+}
+
+.top-right {
+  position: absolute;
+  top: 80px;
+  right: 165px;
+  width: 384px;
+  font-family: Flood;
+  font-size: 72px;
+  line-height: 76px;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
 }
