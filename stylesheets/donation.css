@@ -23,7 +23,7 @@ body {
   src: url('../fonts/FloodStd.otf')  format('opentype');
 }
 
-.top-right {
+.topRightText {
   position: absolute;
   top: 80px;
   right: 165px;
@@ -35,3 +35,116 @@ body {
   color: #FFFFFF;
   opacity: 1;
 }
+
+.box {
+  position: relative;
+  top: -1200px;
+  bottom: 128px;
+  left: 160px;
+  width: 640px;
+  height: 1016px;
+  background: #354463;
+}
+
+
+.formTitle {
+  position: absolute;
+  text-align: left;
+  font: Bold 28px/36px Helvetica;
+  margin: 58px 353px 930px 64px;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+  width: 225px;
+  
+}
+
+.field-container {
+  /* font: Helvetica 11px/13px Helvetica; */
+}
+
+/* Mobile*/
+
+@media screen and (max-width: 360px) {
+  html, body {
+    overflow-x: hidden;
+  }
+ body {
+    width:100%;
+  }
+  h1 {
+    text-align: center;
+    font: Bold 18px/22px Helvetica;
+    letter-spacing: 0;
+    color: #354463;
+    opacity: 1;
+    height: 40px;
+    margin:21px 21px;
+    }
+
+    .container {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+    .topRightText {
+      position: absolute;
+      top: 33px;
+      right: 32px;
+      left: 32px;
+      width: 312px;
+      font-family: Flood;
+      font-size: 32px;
+      line-height: 46px;
+      letter-spacing: 0;
+      color: #FFFFFF;
+      opacity: 1;
+    }
+    
+    .box {
+      position: relative;
+      top: -1089px;
+      bottom: 128px;
+      left: 20px;
+      right: 32px;
+      width: 312px;
+      height: 816px;
+      background: #354463;
+    }
+
+    .formTitle {
+      position: absolute;
+      margin: 32px 32px 757px 31px;
+      text-align: center;
+      font: Bold 22px/28px Helvetica;
+      letter-spacing: 0;
+      color: #FFFFFF;
+      opacity: 1;
+      
+    }
+
+    .field-container {
+      position: absolute;
+      left: 18px;
+      top: 68px;
+      right: 24px;
+      font: normal 11px/13px Helvetica;
+      letter-spacing: 0.44px;
+      color: #FFFFFF;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between ;
+      opacity: 1;
+    }
+
+    .field {
+      font: normal 11px/13px Helvetica;
+      top: 291px;
+      left: 64px;
+      width: 116px;
+      height: 45px;
+    }
+    
+}
+
