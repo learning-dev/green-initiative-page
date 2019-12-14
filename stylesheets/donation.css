@@ -12,6 +12,10 @@ body {
   opacity: 1;
 }
 
+/* * {
+  border: 1px solid white;
+} */
+
 .container {
   position: relative;
   text-align: center;
@@ -60,7 +64,98 @@ body {
 }
 
 .field-container {
-  /* font: Helvetica 11px/13px Helvetica; */
+  position: absolute;
+  left: 18px;
+  top: 103px;
+  right: 308px;
+  font: normal 14px/17px Helvetica;
+  letter-spacing: 0.44px;
+  color: #FFFFFF;
+}
+
+.element-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.three-element-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.name-field {
+  font: normal 14px/17px Helvetica;
+  position: relative;
+  left: 3rem;
+  width: 116px;
+  height: 45px;
+}
+.address-field {
+  font: normal 14px/17px Helvetica;
+  position: relative;
+  width: 100%;
+  right: 11px;
+  height: 45px;
+}
+
+.field-text {
+  font: normal 14px/17px Helvetica;
+  letter-spacing: 0.44px;
+  /* position: relative;
+  right: 22px; */
+}
+.address-text {
+  position: relative;
+  letter-spacing: 0.44px;
+  right: 35px;
+  margin-top: 10px;
+}
+.email-address-text {
+  position: relative;
+  letter-spacing: 0.5px;
+  right: 35px;
+  margin-top: 33px;
+}
+
+.fieldspace {
+  background-color:  #354463;
+  letter-spacing: -0.16px;
+  font: lighter 20px/32px Helvetica;
+  width: 116px;
+  color: #C1F7D5;
+  border-style: solid;
+  border-top: 1px #C1F7D5;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.small-fieldspace {
+  background-color:  #354463;
+  letter-spacing: -0.16px;
+  font: lighter 20px/32px Helvetica;
+  color: #C1F7D5;
+  border-style: solid;
+  border-top: 1px #C1F7D5;
+  border-left: 0px;
+  border-right: 0px;
+  width: 50px;
+}
+
+.address-fieldspace {
+  background-color:  #354463;
+  letter-spacing: -0.16px;
+  font: lighter 20px/32px Helvetica;
+  color: #C1F7D5;
+  width: 200px;
+  border-style: solid;
+  border-top: 1px #C1F7D5;
+  border-left: 0px;
+  border-right: 0px;
+  position: relative;
+  /* right: 21px; */
 }
 
 /* Mobile*/
@@ -150,7 +245,8 @@ body {
     }
     .name-field {
       font: normal 11px/13px Helvetica;
-      top: 291px;
+      left: 0em;
+      top: 6px;
       width: 116px;
       height: 45px;
     }
@@ -176,6 +272,7 @@ body {
     .email-address-text {
       position: relative;
       right: 68px;
+      margin-top: 13px;
     }
 
     .fieldspace {
