@@ -3,14 +3,9 @@ h1 {
   font: Bold 28px/36px Helvetica;
   letter-spacing: 0;
   color: #354463;
-  opacity: 1;
   height: 64px;
   margin:28px  28px ;
   }
-
-body {
-  opacity: 1;
-}
 
 /* * {
   border: 1px solid white;
@@ -158,6 +153,44 @@ body {
   /* right: 21px; */
 }
 
+
+/* Tablet */
+
+@media only screen and (max-width: 768px) {
+  html, body {
+    overflow-x: hidden;
+  }
+ body {
+    width:100%;
+  }
+
+  .topRightText{
+    position: absolute;
+    top: 64px;
+    right: 128px;
+    left: 128px;
+    width: 512px;
+    font-family: Flood;
+    font-size: 44px;
+    line-height: 46px;
+    color: #FFFFFF;
+  }
+
+  .box {
+    position: relative;
+    top: -1043px;
+    bottom: 128px;
+    left: 63px;
+    right: 32px;
+    width: 640px;
+    height: 1016px;
+    background: #354463;
+  }
+
+
+}
+
+
 /* Mobile*/
 
 @media only screen and (max-width: 414px) {
@@ -217,7 +250,6 @@ body {
       font: Bold 22px/28px Helvetica;
       letter-spacing: 0;
       color: #FFFFFF;
-      opacity: 1;
       
     }
 
@@ -229,7 +261,6 @@ body {
       font: normal 11px/13px Helvetica;
       letter-spacing: 0.44px;
       color: #FFFFFF;
-      opacity: 1;
     }
     .element-row {
       display: flex;
@@ -310,8 +341,10 @@ body {
       border-right: 0px;
       position: relative;
       right: 21px;
-    }
-    
+    }   
     
 }
+
+
+
 
