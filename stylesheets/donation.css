@@ -65,7 +65,7 @@ body {
 
 /* Mobile*/
 
-@media screen and (max-width: 360px) {
+@media only screen and (max-width: 414px) {
   html, body {
     overflow-x: hidden;
   }
@@ -114,8 +114,11 @@ body {
 
     .formTitle {
       position: absolute;
-      margin: 32px 32px 757px 31px;
-      text-align: center;
+      margin: 32px 31px 757px 0px;
+      top: 0px;
+      right: 31px;
+      left: 31px;
+      /* text-align: center; */
       font: Bold 22px/28px Helvetica;
       letter-spacing: 0;
       color: #FFFFFF;
@@ -131,20 +134,82 @@ body {
       font: normal 11px/13px Helvetica;
       letter-spacing: 0.44px;
       color: #FFFFFF;
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-      justify-content: space-between ;
       opacity: 1;
     }
+    .element-row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 15px;
+    }
 
-    .field {
+    .three-element-row {
+      display: flex;
+      flex-direction: row;
+    }
+    .name-field {
       font: normal 11px/13px Helvetica;
       top: 291px;
-      left: 64px;
       width: 116px;
       height: 45px;
     }
+    .address-field {
+      font: normal 11px/13px Helvetica;
+      position: relative;
+      width: 100%;
+      right: 11px;
+      height: 45px;
+    }
+
+    .field-text {
+      font: normal 11px/13px Helvetica;
+      letter-spacing: 0.44px;
+      position: relative;
+      right: 22px;
+    }
+    .address-text {
+      position: relative;
+      right: 68px;
+    }
+
+    .fieldspace {
+      background-color:  #354463;
+      letter-spacing: -0.16px;
+      font: lighter 16px/24px Helvetica;
+      width: 116px;
+      color: #C1F7D5;
+      border-style: solid;
+      border-top: 1px #C1F7D5;
+      border-left: 0px;
+      border-right: 0px;
+    }
+    .small-fieldspace {
+      background-color:  #354463;
+      letter-spacing: -0.16px;
+      font: lighter 16px/24px Helvetica;
+      color: #C1F7D5;
+      border-style: solid;
+      border-top: 1px #C1F7D5;
+      border-left: 0px;
+      border-right: 0px;
+      width: 50px;
+    }
+
+    .address-fieldspace {
+      background-color:  #354463;
+      letter-spacing: -0.16px;
+      font: lighter 16px/24px Helvetica;
+      color: #C1F7D5;
+      width: 200px;
+      border-style: solid;
+      border-top: 1px #C1F7D5;
+      border-left: 0px;
+      border-right: 0px;
+      position: relative;
+      right: 21px;
+    }
+    
     
 }
 

@@ -19,40 +19,66 @@
           <form action="#">
             <div class="formTitle">Your Information</div>
             <div class="field-container">
-                <div class="field">
-                    FIRST NAME <br>    
-                    <input type="text" placeholder="First name">
-                </div>
-                <div class="field">
-                  LAST NAME <br>
-                  <input type="text" placeholder="Last name">
-                </div>
-                <div class="field">
-                    STREET ADDRESS <br>
-                    <input type="text" placeholder="Street address">
-                </div>
-                <div class="field">
-                    CITY<br>
-                    <input type="text" placeholder="City name">
-                </div>
-                <div class="field">
-                    STATE<br>
-                    <input type="text" list="states" placeholder="AL" />
-                    <datalist id="states">
-                        <option value="AL">AL</option>
-                        <option value="CA">CA</option>
-                        <option value="FL">FL</option>
-                    </datalist>
-                </div>
-                <div class="field">
-                    ZIP CODE<br>
-                    <input type="text" placeholder="Zip">
-                </div>
-                <div class="field">
-                    EMAIL ADDRESS<br>
-                    <input type="text" placeholder="Email address">
-                </div>
 
+              <div class="element-row">
+                  <span class="name-field">
+                      <div class="field-text"> 
+                        FIRST NAME <br>    
+                      </div>
+                        <input class="fieldspace" type="text" placeholder="First name">
+                  </span>
+    
+                  <span class="name-field">
+                        <div class="field-text"> 
+                            LAST NAME <br>
+                          </div>
+                      <input type="text" class="fieldspace" placeholder="Last name">
+                  </span>
+              </div>
+
+                <div class="element-row">
+                    <div class="address-field">
+                        <div class="address-text">
+                          STREET ADDRESS <br>  
+                        </div>
+                          <input type="text" class="address-fieldspace" placeholder="Street address" size="40">
+                          <br>
+                      </div>
+                </div>
+                <div class="three-element-row"> 
+                    <span class="name-field">
+                        <div class="field-text"> 
+                            CITY<br>
+                          </div>  
+                        <input  class="fieldspace" class="fieldspace" type="text" placeholder="City name">
+                        <br>
+                        </span>
+                    <span class="name-field">
+                        <div class="field-text"> 
+                            STATE<br>
+                          </div> 
+                        <input type="text" class="small-fieldspace" list="states" placeholder="AL" size="10"/>
+                        <datalist id="states">
+                            <option value="AL">AL</option>
+                            <option value="CA">CA</option>
+                            <option value="FL">FL</option>
+                        </datalist>
+                      </span>
+                    <span class="name-field">
+                        <div class="field-text"> 
+                            ZIP CODE<br>
+                          </div> 
+                        <input type="text" class="small-fieldspace" placeholder="Zip" size="10">
+                    </span>
+                </div>
+                <div class="element-row">
+                    <div class="address-field">
+                        <div class="address-text">
+                            EMAIL ADDRESS<br>
+                        </div>
+                        <input type="text" class="address-fieldspace" placeholder="Email address" size="40">
+                    </div>
+                </div>
             </div>
           </form>
         </div>
