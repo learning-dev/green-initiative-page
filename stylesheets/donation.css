@@ -173,6 +173,11 @@ body {
       right: 68px;
     }
 
+    .email-address-text {
+      position: relative;
+      right: 68px;
+    }
+
     .fieldspace {
       background-color:  #354463;
       letter-spacing: -0.16px;
