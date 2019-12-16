@@ -1,3 +1,10 @@
+/* html, body {
+  overflow-x: hidden;
+} */
+
+/* body {
+  width:100%;
+} */
 
 h1 {
   font: Bold 18px/22px Helvetica;
@@ -36,6 +43,7 @@ a {
   color: #354463;
   bottom: 10px;
   position: relative;
+  width: 120px;
   left: 100px;
  }
 
@@ -47,5 +55,13 @@ a {
   position: absolute;
   bottom: 100px;
   height: 40px;
-  left: 26px;
+  left: 46px;
+ }
+
+
+ @media only screen  and (min-width: 800px) {
+
+
+
+
  }
