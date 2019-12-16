@@ -56,13 +56,49 @@ a {
   position: absolute;
   bottom: 100px;
   height: 40px;
-  left: 46px;
+  left: 1.2rem;
  }
 
 
  @media only screen  and (min-width: 800px) {
 
+  h1 {
+    font: Bold 22px/28px Helvetica;
+    letter-spacing: 0;
+    width: 10rem;
+    left: 160px;
+    position: relative;
+  }
 
+  .links-container {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 38%;
+    font: lighter 16px/24px Helvetica;
+    letter-spacing: -0.16px;
+    position: relative;
+    left: 33rem;
+    
+  }
 
+  .donate-button {
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    top: 61px;
+    width: 160px;
+    height: 48px;
+    position: absolute;
+    bottom: 91px;
+    left: 73.2rem;
+   }
+
+   .donate-text {
+    font: Bold 18px/22px Helvetica;
+    color: #354463;
+    bottom: 5px;
+    position: relative;
+    left: 20px;
+   }
 
  }
