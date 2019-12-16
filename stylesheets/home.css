@@ -78,6 +78,7 @@ a {
   top: 2rem;
   width: 0rem;
  }
+
  .small-blue-box {
   background: #354463 0% 0% no-repeat padding-box;
   font: normal 14px/17px Helvetica;
@@ -91,10 +92,12 @@ a {
   z-index: 1;
   top: 5rem;
  }
+
  .issue-text {
    position: relative;
   top: 0.8rem;
  }
+
  .white-box {
   display: flex;
   flex-direction: column;
@@ -108,14 +111,14 @@ a {
   top: 4rem; 
  }
 
- .white-box-bold {
-  font: Bold 22px/28px Helvetica;
-  text-align: center;
-  color: #354463;
-  width: 278px;
-  height: 78px;
-  align-self: center;
- }
+  .white-box-bold {
+    font: Bold 22px/28px Helvetica;
+    text-align: center;
+    color: #354463;
+    width: 278px;
+    height: 78px;
+    align-self: center;
+  }
 
  .white-link-text {
   text-align: center;
@@ -126,6 +129,79 @@ a {
   width: 15rem;
   padding-left:2rem;
  }
+
+
+ /*For Tablet */
+
+ @media only screen  and (min-width: 500px) and  (max-width: 768px) {
+  .links-container {
+    flex-direction: row;
+    height: 70px;
+    font: lighter 16px/24px Helvetica;
+    letter-spacing: -0.16px;
+    width: 27rem;
+    top: 2.8rem;
+    left: 2.8rem;
+  }
+
+  .donate-button {
+    top: 3.5rem;
+    left: 564px;  
+    width: 140px;
+    height: 48px;
+  }
+
+  .donate-text {
+    font: Bold 18px/22px Helvetica;
+    bottom: 5px;
+    position: relative;
+    left: 16px;
+    width: 141px;
+    height: 18px;
+   }
+
+   div.background-image {
+    background: transparent url('/img/annie-spratt-135307-unsplash-tablet.png') 0% 0% no-repeat padding-box;
+    top: 0rem;
+    height: 100%;
+   }
+
+   .small-blue-box {
+    position: relative;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    left: 6rem;
+    top: 5rem;
+   }
+
+   .white-box {
+    width: 640px;
+    height: 309px;
+    position: relative;
+    left: 1rem;
+    z-index: 0; 
+    top: 4rem; 
+   }
+   
+   .white-box-bold {
+    font: Bold 36px/46px Helvetica;
+    text-align: center;
+    width: 512px;
+    height: 138px;
+
+   }
+  
+   .white-link-text {
+    font: lighter 14px/17px Helvetica;
+    letter-spacing: -0.16px;
+    width: 21rem;
+    padding-left: 7rem;
+   }
+
+}
+
+  
 
 
 /*For larger screen PC */
@@ -149,11 +225,9 @@ a {
     letter-spacing: -0.16px;
     position: relative;
     left: 33rem;
-    
   }
 
   .donate-button {
-    background: #C1F7D5 0% 0% no-repeat padding-box;
     border-radius: 100px;
     top: 61px;
     width: 160px;
@@ -215,3 +289,4 @@ a {
     top: 6rem;
    }
  }
+
