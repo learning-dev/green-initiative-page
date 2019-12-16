@@ -96,6 +96,9 @@ a {
   top: 0.8rem;
  }
  .white-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; 
   width: 312px;
   height: 240px;
   background: #FFFFFF 0% 0% no-repeat padding-box; 
@@ -114,13 +117,15 @@ a {
   align-self: center;
  }
 
-.white-box{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-
+ .white-link-text {
+  text-align: center;
+  text-decoration: underline;
+  font: lighter 14px/17px Helvetica;
+  letter-spacing: -0.16px;
+  color: #354463;
+  width: 15rem;
+  padding-left:2rem;
+ }
 
 
 /*For larger screen PC */
@@ -160,7 +165,6 @@ a {
 
    .donate-text {
     font: Bold 18px/22px Helvetica;
-    color: #354463;
     bottom: 5px;
     position: relative;
     left: 20px;
@@ -171,12 +175,43 @@ a {
    }
 
    .sylish-right-text {
-     position: relative;
-     top: 265px;
-     left: 839px;
-     width: 296px; 
-     height: 224px;
+      position: relative;
+      top: 111px;
+      left: 910px;
+      width: 296px;
+      height: 224px;
+  }
 
+   .white-box {
+    position: absolute;
+    left: 160px;
+    top: 7rem;
+    width: 544px;
+    height: 416px;
    }
 
+   .white-box-bold {
+    font: Bold 44px/56px Helvetica;
+    text-align: center;
+    width: 416px;
+    height: 200px;
+    align-self: center;
+   }
+
+   .white-link-text {
+    font: lighter 16px/24px Helvetica;
+    padding-bottom: 4rem;
+    width: 24rem;
+    padding-left: 5rem;
+   }
+
+   .issue-text {
+    position: relative;
+   top: 0rem;
+  }
+   .small-blue-box {
+    position: absolute;
+    left: 16rem;
+    top: 6rem;
+   }
  }
