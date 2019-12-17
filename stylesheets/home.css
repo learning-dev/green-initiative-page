@@ -183,6 +183,93 @@ a {
   top: 0.8rem;
 }
 
+.what-we-do-blue-box {
+  width: 100%;
+  height: 1850px;
+  background: #354463 0% 0% no-repeat padding-box;
+  position: relative;
+  top: 16rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+
+.button-what-we-do {
+  position: relative;
+  width: 160px;
+  height: 40px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  top: 3rem;
+}
+
+.text-what-we-do{
+  text-align: center;
+  font: normal 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+  color: #354463;
+  
+}
+
+.mission-text {
+  position: relative;
+  text-align: center;
+  font: Bold 22px/28px Helvetica;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  width: 302px;
+  height: 134px;
+  
+}
+
+.white-box-second {
+  width: 312px;
+  height: 415px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-one {
+  position: relative;
+  bottom: 2rem;
+}
+
+.title-text-whitebox {
+  text-align: center;
+  font: Bold 18px/22px Helvetica;
+  color: #354463;
+}
+
+.subtext-whitebox-blue {
+  text-align: center;
+  font: lighter 14px/20px Helvetica;
+  letter-spacing: -0.14px;
+  color: #354463;
+}
+
+.readmore-button-one {
+  background: #C1F7D5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  width: 152px;
+  height: 40px;
+  font: Bold 16px/20px Helvetica;
+  letter-spacing: 0;
+  color: #354463;
+}
+
+.readmore-text {
+  position: relative;
+  text-align: center;
+  bottom: 0.5rem;
+}
+
+
+
+
 
 
    /*For Tablet */
@@ -256,7 +343,7 @@ a {
    .torquise-box {
     position: relative;
     align-content: center;
-    width: 84%;
+    width: 83%;
     height: 336px;
     z-index: 2;
     top: 5rem;
