@@ -304,15 +304,48 @@ a {
   background: transparent url('/img/Did-you-know-background-mobile.png') 0% 0% no-repeat padding-box;
   width: 98%;
   display: grid;
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-rows: 2.5fr 1.5fr 1fr 1fr 1fr;
   top: 16.9rem;
+  grid-gap: 3rem;
+
 }
 .climate-change-text {
   display: flex;
   flex-direction: column;
-  
-  
 }
+.stylishcc-text-section {
+  text-align: left;
+  font: normal 44px/46px Flood Std;
+  color: #FFFFFF;
+  width: 302px;
+  height: 192px;
+  align-self: center;
+  position: relative;
+  bottom: 1rem;
+  }
+
+.take-action-button {
+  width: 152px;
+  height: 40px;
+  background: #C1F7D5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  text-align: left;
+  position: relative;
+  top: 1.4rem;
+  left: 1rem;
+}
+
+.text-take-action {
+  font: Bold 16px/20px Helvetica;
+  color: #354463;
+  text-align: left;
+  
+  position: relative;
+  left: 0.5rem;
+  bottom: 0.45rem;
+}
+
+
 
 
 
