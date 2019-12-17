@@ -233,7 +233,7 @@ a {
   align-items: center;
 }
 
-.img-one {
+.center-small-img {
   position: relative;
   bottom: 2rem;
 }
@@ -252,6 +252,25 @@ a {
 }
 
 .readmore-button-one {
+  background: #C1F7D5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  width: 152px;
+  height: 40px;
+  font: Bold 16px/20px Helvetica;
+  letter-spacing: 0;
+  color: #354463;
+}
+.readmore-button-two {
+  background: #C1F7D5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  width: 152px;
+  height: 40px;
+  font: Bold 16px/20px Helvetica;
+  letter-spacing: 0;
+  color: #354463;
+}
+
+.readmore-button-three {
   background: #C1F7D5 0% 0% no-repeat padding-box;
   border-radius: 100px;
   width: 152px;
@@ -327,7 +346,7 @@ a {
    
    .white-box-bold {
     font: Bold 36px/46px Helvetica;
-    text-align: center;
+    text-align: left;
     width: 512px;
     height: 138px;
 
@@ -337,7 +356,7 @@ a {
     font: lighter 14px/17px Helvetica;
     letter-spacing: -0.16px;
     width: 21rem;
-    padding-left: 7rem;
+    padding-left: 4rem;
    }
 
    .torquise-box {
@@ -361,7 +380,6 @@ a {
 
 
   .subtext-torquire-box {
-    /* width: 100%; */
     width: 256px;
     height: 62px;
     font: lighter 16px/24px Helvetica;
@@ -375,7 +393,106 @@ a {
     z-index: 3;
     left: 18rem;
 }
-  
+
+.what-we-do-blue-box {
+  position: relative;
+  top: 5rem;
+}
+
+.button-what-we-do {
+  position: relative;
+  right: 14rem;
+
+ }
+
+ .mission-text {
+  position: relative;
+  text-align: left;
+  font: Bold 32px/46px Helvetica;
+  width: 640px;
+  height: 140px;
+}
+
+
+.white-box-second {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 640px;
+  height: 280px;
+}
+.center-small-img {
+  bottom: 5rem;
+  left: 1.5rem;
+  }
+
+.title-text-whitebox {
+  font: Bold 22px/28px Helvetica;
+  text-align: left;
+  width: 50rem;
+  height: 50px;
+  position: relative;
+  bottom: 8rem;
+  left: 3.5rem;
+}
+.subtext-whitebox-blue {
+position: relative;
+text-align: left;
+font: lighter 16px/24px Helvetica;
+letter-spacing: -0.16px;
+right: 6rem;
+top: 2rem;
+
+}
+.readmore-button-one {
+  font: Bold 18px/22px Helvetica;
+  position: absolute;
+  top: 48rem;
+  right: 27rem;
+  width: 156px;
+  height: 47px;
+}
+.readmore-button-two {
+  background: #C1F7D5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  font: Bold 18px/22px Helvetica;
+  position: absolute;
+  width: 156px;
+  height: 47px;
+  left: 9.5rem;
+  top: 78.5rem;
+}
+
+.readmore-button-three {
+  background: #C1F7D5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  font: Bold 18px/22px Helvetica;
+  position: absolute;
+  width: 156px;
+  height: 47px;
+  left: 10.5rem;
+  top: 109rem;
+}
+
+/* .readmore-button-one {
+  background: #C1F7D5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  width: 152px;
+  height: 40px;
+  font: Bold 16px/20px Helvetica;
+  letter-spacing: 0;
+  color: #354463;
+}
+
+.readmore-text {
+  position: relative;
+  text-align: center;
+  bottom: 0.5rem;
+} */
+
+
+
 }
 
 
