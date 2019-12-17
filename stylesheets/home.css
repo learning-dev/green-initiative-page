@@ -141,11 +141,12 @@ a {
   color: #FFFFFF;
   text-align: center;
  }
+
  .torquise-box {
   background: #C1F7D5 0% 0% no-repeat padding-box;
   position: relative;
   align-content: center;
-  width: 96%;
+  width: 92%;
   height: 15.5rem;
   z-index: 2;
   top: 5rem;
@@ -175,6 +176,11 @@ a {
     top: 6rem;
     z-index: 3;
     left: 5rem;
+}
+
+.issue-text-take {
+  position: relative;
+  top: 0.8rem;
 }
 
 
@@ -248,16 +254,13 @@ a {
    }
 
    .torquise-box {
-    background: #C1F7D5 0% 0% no-repeat padding-box;
     position: relative;
     align-content: center;
-    width: 768px;
+    width: 84%;
     height: 336px;
     z-index: 2;
     top: 5rem;
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
     grid-gap: 0rem;
     padding: 4rem;
   }
@@ -277,9 +280,8 @@ a {
     font: lighter 16px/24px Helvetica;
     letter-spacing: -0.16px;
     color: #354463;
-
   }
-  
+
   .another-small-blue-box {
     position: relative;
     top: 6rem;
@@ -337,8 +339,9 @@ a {
 
    .sylish-right-text {
       position: relative;
-      top: 111px;
-      left: 910px;
+      font: normal 74px/76px Flood Std;
+      top: 128px;
+    left: 838px;
       width: 296px;
       height: 224px;
   }
@@ -375,5 +378,48 @@ a {
     left: 16rem;
     top: 6rem;
    }
+
+
+   .bullet-title {
+    font: Bold 28px/36px Helvetica;
+    color: #354463;
+  }
+
+  
+
+.subtext-torquire-box {
+  /* width: 100%; */
+  width: 232px;
+  height: 62px;
+  font: lighter 16px/24px Helvetica;
+  letter-spacing: -0.16px;
+  color: #354463;
+}
+
+.torquise-box {
+  position: relative;
+  align-content: center;
+  width: 91%;
+  height: 170px;
+  z-index: 2;
+  top: 20rem;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-row: 1;
+  grid-gap: 0rem;
+  padding: 4rem;
+}
+
+.another-small-blue-box {
+  position: relative;
+  top: 21rem;
+  z-index: 3;
+  left: 38rem;
+}
+.issue-text-take {
+  position: relative;
+  top: 0.8rem;
+}
+
  }
 
