@@ -196,7 +196,6 @@ a {
   
 }
 
-
 .button-what-we-do {
   position: relative;
   width: 160px;
@@ -445,6 +444,7 @@ right: 6rem;
 top: 2rem;
 
 }
+
 .readmore-button-one {
   font: Bold 18px/22px Helvetica;
   position: absolute;
@@ -453,6 +453,8 @@ top: 2rem;
   width: 156px;
   height: 47px;
 }
+
+
 .readmore-button-two {
   background: #C1F7D5 0% 0% no-repeat padding-box;
   border-radius: 100px;
@@ -474,24 +476,6 @@ top: 2rem;
   left: 10.5rem;
   top: 109rem;
 }
-
-/* .readmore-button-one {
-  background: #C1F7D5 0% 0% no-repeat padding-box;
-  border-radius: 100px;
-  width: 152px;
-  height: 40px;
-  font: Bold 16px/20px Helvetica;
-  letter-spacing: 0;
-  color: #354463;
-}
-
-.readmore-text {
-  position: relative;
-  text-align: center;
-  bottom: 0.5rem;
-} */
-
-
 
 }
 
@@ -625,5 +609,27 @@ top: 2rem;
   top: 0.8rem;
 }
 
+.what-we-do-blue-box {
+  height: 1327px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.button-what-we-do {
+  position: absolute;
+  top: 6rem;
+  left: 4rem;
+}
+
+.mission-text {
+  position: absolute;
+  text-align: left;
+  font: Bold 42px/56px Helvetica;
+  width: 1146px;
+  height: 140px;
+  top: 8rem;
+  left: 4rem;
+}
  }
 
