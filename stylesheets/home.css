@@ -145,7 +145,7 @@ a {
   background: #C1F7D5 0% 0% no-repeat padding-box;
   position: relative;
   align-content: center;
-  width: 20.5rem;
+  width: 96%;
   height: 15.5rem;
   z-index: 2;
   top: 5rem;
@@ -176,8 +176,6 @@ a {
     z-index: 3;
     left: 5rem;
 }
-
-
 
 
 
@@ -249,9 +247,48 @@ a {
     padding-left: 7rem;
    }
 
-}
+   .torquise-box {
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    position: relative;
+    align-content: center;
+    width: 768px;
+    height: 336px;
+    z-index: 2;
+    top: 5rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-gap: 0rem;
+    padding: 4rem;
+  }
 
   
+
+  .bullet-title {
+    font: Bold 22px/28px Helvetica;
+    color: #354463;
+  }
+
+
+  .subtext-torquire-box {
+    /* width: 100%; */
+    width: 256px;
+    height: 62px;
+    font: lighter 16px/24px Helvetica;
+    letter-spacing: -0.16px;
+    color: #354463;
+
+  }
+  
+  .another-small-blue-box {
+    position: relative;
+    top: 6rem;
+    z-index: 3;
+    left: 18rem;
+}
+  
+}
+
 
 
 /*For larger screen PC */
