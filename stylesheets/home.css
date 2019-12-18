@@ -641,7 +641,6 @@ top: 2rem;
   left: 5rem;
 }
 
-
 .stylishcc-text-section {
   width: 50%;
 }
@@ -787,8 +786,8 @@ top: 2rem;
 
 .button-what-we-do {
   position: absolute;
-  top: 6rem;
-  left: 4rem;
+  top: -37rem;    
+  left: 5rem;
 }
 
 .mission-text {
@@ -797,8 +796,44 @@ top: 2rem;
   font: Bold 42px/56px Helvetica;
   width: 1146px;
   height: 140px;
-  top: 8rem;
+  bottom: 25rem;
   left: 4rem;
 }
+
+.climate-change-section {
+  justify-items: right;
+  padding-right: 20pc;
+  grid-template-rows: 1.8fr 1fr 1fr 1fr 1fr .1fr;
+  grid-gap: 2.5rem;
+}
+
+.climate-change-text {
+  position: absolute;
+  right: 50%;
+  top: 3%;
+  font: normal 44px/46px Flood Std;
+}
+
+.take-action-button{
+  top: 7.4rem;
+  left: 11rem;
+}
+
+.stylishcc-text-section {
+  width: 50%;
+  font: normal 72px/76px Flood Std;
+  bottom: 4rem;
+}
+
+.did-you-know-button {
+  top: 2rem;
+  left: 54.5rem;
+}
+/* .box-white-facts {
+  width: 412px;
+  height: 236px;
+} */
+
+
  }
 
