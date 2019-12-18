@@ -801,6 +801,7 @@ top: 2rem;
 }
 
 .climate-change-section {
+  background: transparent url('/img/did-you-know-background.png') 0% 0% no-repeat;
   justify-items: right;
   padding-right: 20pc;
   grid-template-rows: 1.8fr 1fr 1fr 1fr 1fr .1fr;
