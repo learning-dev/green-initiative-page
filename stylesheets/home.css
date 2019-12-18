@@ -451,6 +451,7 @@ a {
     height: 40px;
     top: 0.5rem;
     left: 2rem;
+    color: #FFFFFF;
 } 
 
 .blue-button-text-str {
@@ -459,9 +460,13 @@ a {
 }
 
 
-.lady-baby-image {
-  align-self: center;
+.lady-baby {
+  margin-left: 10px;
+  width: 312px;
+  height: 312px;
+  
 }
+
 
 .bluebox-farmer-about {
   background: #354463 0% 0% no-repeat padding-box;
@@ -729,7 +734,67 @@ top: 2rem;
   width: 50%;
 }
 
+
+.image-white-section {
+  position: relative;
+  top: 17rem;
+  width: 320px;
+  height: 1000px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
+
+.lady-baby-image {
+  align-self: center;
+}
+
+.lady-baby {
+
+  margin-left: 28%;
+  width: 576px;
+  height: 568px;
+  margin-top: 28%;
+
+}
+
+.blue-button-stories {
+  width: 160px;
+  height: 40px;
+  top: 12.5rem;
+  left: 6rem;
+}
+
+
+.bluebox-farmer-about {
+  width: 170%;
+  height: 22%;
+  position: absolute;
+  left: 8rem;
+  top: 42rem;
+  
+}
+
+.about-farmer-text {
+  text-align: center;
+  font: normal 11px/13px Helvetica;
+  letter-spacing: 0.44px;
+}
+
+.readmore-button {
+  position: relative;
+  top: 2rem;
+  left: 3rem;
+}
+
+
+}
+
+
+
+
+
 
 
 
@@ -914,6 +979,10 @@ top: 2rem;
   top: 2rem;
   left: 54.5rem;
 }
+
+
+
+
 
 
  }
