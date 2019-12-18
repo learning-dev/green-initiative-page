@@ -357,8 +357,9 @@ a {
   position: absolute;
   top: 20rem;
   left: 7.5rem;
-
 }
+
+
 .did-you-know-text {
   text-align: center;
   position: relative;
@@ -378,11 +379,43 @@ a {
 .fact-text-title{
   font: Bold 22px/28px Helvetica;
   color: #354463;
-  width: 8.5rem;
+  width: auto;
   height: 1.38rem;
   padding-top: 5px;
-  padding-left: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 } 
+
+.twitter-icon-bg {
+  width: 32px;
+  height: 32px;
+  background: #C1F7D5 0% 0% no-repeat padding-box;
+  border-radius: 15px;
+  position: relative;
+  left: 1rem;
+  top: 1.5rem
+}
+.icon-img {
+  position: relative;
+  left: 8px;
+}
+
+.fb-icon-bg {
+  width: 50px;
+  height: 25px;
+  background: #C1F7D5 0% 0% no-repeat padding-box;
+  border-radius: 50px;
+  position: relative;
+  left: 2.7rem;
+  top: 1.5rem;
+}
+
+.fb-icon-img {
+  position: relative;
+  left: 8px;
+  top: 4px;
+}
 
 .fact-sub-text {
   font: lighter 14px/17px Helvetica;
@@ -393,6 +426,9 @@ a {
   text-align: left;
   padding-bottom: 2rem;
   padding-left: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 
