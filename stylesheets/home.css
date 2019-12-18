@@ -302,12 +302,12 @@ a {
 .climate-change-section {
   position: relative;
   background: transparent url('/img/Did-you-know-background-mobile.png') 0% 0% no-repeat padding-box;
-  width: 98%;
+  background-size: 100% 100%;
   display: grid;
-  grid-template-rows: 2.5fr 1.5fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1.25fr 1fr 1fr 1fr .15fr;
   top: 16.9rem;
   grid-gap: 3rem;
-
+  justify-items: center;
 }
 .climate-change-text {
   display: flex;
@@ -322,6 +322,7 @@ a {
   align-self: center;
   position: relative;
   bottom: 1rem;
+  padding: 5px;
   }
 
 .take-action-button {
@@ -345,12 +346,54 @@ a {
   bottom: 0.45rem;
 }
 
+.did-you-know-button {
+  text-align: center;
+  font: normal 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+  color: #FFFFFF;
+  background: #354463 0% 0% no-repeat padding-box;
+  width: 160px;
+  height: 40px;
+  position: absolute;
+  top: 20rem;
+  left: 7.5rem;
 
+}
+.did-you-know-text {
+  text-align: center;
+  position: relative;
+  bottom: 0.1rem;
+}
 
+.box-white-facts {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  width: 312px;
+  height: 136px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 
+.fact-text-title{
+  font: Bold 22px/28px Helvetica;
+  color: #354463;
+  width: 8.5rem;
+  height: 1.38rem;
+  padding-top: 5px;
+  padding-left: 2rem;
+} 
 
-
-
+.fact-sub-text {
+  font: lighter 14px/17px Helvetica;
+  letter-spacing: -0.16px;
+  color: #354463;
+  width: 198px;
+  height: 34px;  
+  text-align: left;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+}
 
 
    /*For Tablet */
