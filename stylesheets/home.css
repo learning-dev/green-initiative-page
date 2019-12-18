@@ -619,6 +619,33 @@ top: 2rem;
   top: 109rem;
 }
 
+.did-you-know-button{
+  top: 2rem;
+  left: 28.5rem;
+}
+.climate-change-section {
+  justify-items: right;
+  padding-right: 4pc;
+  grid-template-rows: 1.8fr 1fr 1fr 1fr 1fr .1fr;
+  grid-gap: 2.5rem;
+}
+
+.climate-change-text {
+  position: absolute;
+  right: 50%;
+  top: 3%;
+}
+
+.take-action-button{
+  top: 5.4rem;
+  left: 5rem;
+}
+
+
+.stylishcc-text-section {
+  width: 50%;
+}
+
 }
 
 
