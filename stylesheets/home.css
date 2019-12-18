@@ -1,10 +1,10 @@
-/* html, body {
+html, body {
   overflow-x: hidden;
-} */
+}
 
-/* body {
+body {
   width:100%;
-} */
+}
 
 h1 {
   font: Bold 18px/22px Helvetica;
@@ -112,14 +112,14 @@ a {
   top: 4rem; 
  }
 
-  .white-box-bold {
-    font: Bold 22px/28px Helvetica;
-    text-align: center;
-    color: #354463;
-    width: 278px;
-    height: 78px;
-    align-self: center;
-  }
+.white-box-bold {
+  font: Bold 22px/28px Helvetica;
+  text-align: center;
+  color: #354463;
+  width: 278px;
+  height: 78px;
+  align-self: center;
+}
 
  .white-link-text {
   text-align: center;
@@ -430,6 +430,90 @@ a {
   flex-direction: row;
   justify-content: space-between;
 }
+
+
+.image-white-section {
+  position: relative;
+  top: 17rem;
+  width: 320px;
+  height: 840px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.blue-button-stories {  
+    background: #354463 0% 0% no-repeat padding-box;
+    font: normal 14px/17px Helvetica;
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    top: 2.5rem;
+    left: 2rem;
+} 
+
+.blue-button-text-str {
+  text-align: center;
+  align-self: center;
+}
+
+
+.lady-baby-image {
+  align-self: center;
+}
+
+.bluebox-farmer-about {
+  background: #354463 0% 0% no-repeat padding-box;
+  width: 90%;
+  height: 34%;
+  text-align: center;
+  font: Bold 22px/28px Helvetica;
+  color: #FFFFFF;
+  align-self: center;
+}
+
+
+.about-farmer-text {
+  text-align: center;
+  font: normal 11px/13px Helvetica;
+  letter-spacing: 0.44px;
+}
+
+.readmore-button{
+  background: #C1F7D5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  font: Bold 18px/22px Helvetica;
+  width: 156px;
+  height: 47px;
+  align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
    /*For Tablet */
@@ -816,7 +900,7 @@ top: 2rem;
 }
 
 .take-action-button{
-  top: 7.4rem;
+  top: 12.4rem;
   left: 11rem;
 }
 
