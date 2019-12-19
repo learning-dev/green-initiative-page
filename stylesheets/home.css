@@ -794,10 +794,6 @@ top: 2rem;
 
 
 
-
-
-
-
 /*For larger screen PC */
 
  @media only screen  and (min-width: 800px) {
@@ -981,6 +977,59 @@ top: 2rem;
 }
 
 
+.image-white-section {
+  position: relative;
+  top: 17rem;
+  width: 500px;
+  height: 1000px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.lady-baby-image {
+  align-self: center;
+}
+
+.lady-baby {
+
+  margin-left: 110%;
+  width: 576px;
+  height: 568px;
+  margin-top: 28%;
+
+}
+
+.blue-button-stories {
+  width: 160px;
+  height: 40px;
+  top: 12.5rem;
+  left: 42rem;
+}
+
+
+.bluebox-farmer-about {
+  width: 90%;
+  height: 22%;
+  position: absolute;
+  left: 16rem;
+  top: 20rem;
+  
+}
+
+.about-farmer-text {
+  text-align: center;
+  font: normal 11px/13px Helvetica;
+  letter-spacing: 0.44px;
+}
+
+.readmore-button {
+  position: relative;
+  bottom: 18rem;
+  left: 5rem;
+}
+}
 
 
 
