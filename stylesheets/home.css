@@ -544,10 +544,19 @@ a {
   color: #FFFFFF;
 }
 
+.title-text-event-left {
+  width: 313px;
+  height: 66px;
+  text-align: center;
+  font: Bold 22px/28px Helvetica;
+  letter-spacing: 0;
+  color: #FFFFFF;
+}
+
 .event-sub-text {
   width: 313px;
   height: 128px;
-  font: lighter 14px/17px Helvetica;
+  font: lighter 13px/17px Helvetica;
   letter-spacing: -0.16px;
   color: #FFFFFF;
   align-self: center;
@@ -626,7 +635,7 @@ a {
 .event-sub-text-left {
   width: 313px;
   height: 128px;
-  font: lighter 14px/17px Helvetica;
+  font: lighter 13px/17px Helvetica;
   letter-spacing: -0.16px;
   color: #FFFFFF;
   align-self: center;
@@ -1020,6 +1029,15 @@ top: 2rem;
   top: -0.5rem;
 }
 
+.title-text-event-left {
+  width: 313px;
+  height: 66px;
+  text-align: center;
+  font: Bold 22px/28px Helvetica;
+  letter-spacing: 0;
+  color: #FFFFFF;
+}
+
 }
 
 
@@ -1276,6 +1294,70 @@ top: 2rem;
   left: 5rem;
 }
 
+
+.fancy-text-blue {
+  top: 2rem;
+  width: 34rem;
+  left: 8rem;
+}
+
+.planting-image-size {
+  width: 300px;
+  height: 300px;
+}
+
+.title-text-event {
+  width: 313px;
+  height: 66px;
+  text-align: center;
+  font: Bold 22px/28px Helvetica;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  position: relative;
+  bottom: 18rem; 
+
+}
+
+.event-sub-text{
+  position: relative;
+  bottom: 17rem;
+}
+
+.img-tag-meeting {
+  width: 350px;
+  height: 350px;
+  align-self: center;
+  position: relative;
+  left: 42rem;
+}
+
+.event-button-left {
+  left: 27rem;
+  top: 5rem;
+  z-index: 6;
+}
+
+.title-text-event-left {
+  width: 313px;
+  height: 66px;
+  text-align: center;
+  font: Bold 22px/28px Helvetica;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  position: relative;
+  bottom: 18rem;
+  left: 23rem;
+}
+.event-sub-text-left {
+  left: 22.4rem;
+  bottom: 18rem;
+}
+
+
+.readmore-button-left{
+  left: 21rem;
+  bottom: 21rem;
+}
 }
 
  
