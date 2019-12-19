@@ -1102,7 +1102,6 @@ top: 2rem;
   width: 152px;
   height: 40px;
   font: Bold 16px/20px Helvetica;
-  letter-spacing: 0;
   color: #354463;
 }
 
@@ -1147,6 +1146,19 @@ top: 2rem;
   width: 448px;
 }
 
+
+.footer-section-title {
+  width: 100px;
+  height: 14px;
+  text-align: left;
+  font: normal 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+}
+
+.stylist-text-footer {
+  left:  22rem;
+  padding-bottom: 5rem;
+}
 
 
 }
