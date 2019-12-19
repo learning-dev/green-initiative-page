@@ -704,6 +704,57 @@ a {
   align-self: center;
 }
 
+.footer-section {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+  grid: 2rem;
+  top: 16rem;
+}
+
+.footer-title-text {
+  text-align: left;
+  font: Bold 18px/22px Helvetica;
+  letter-spacing: 0;
+  color: #354463;
+  width: 94px;
+  height: 62px;
+  position: relative;
+  bottom: 2.7rem;
+  
+}
+
+.footer-section-title {
+  width: 80px;
+  height: 11px;
+  text-align: left;
+  font: normal 11px/13px Helvetica;
+  letter-spacing: 0.44px;
+}
+
+.footer-section-text{
+  width: 110px;
+  height: 86px;
+  text-align: left;
+  text-decoration: underline;
+  font: lighter 14px/24px Helvetica;
+  letter-spacing: -0.14px;
+  color: #354463;
+}
+
+.stylist-text-footer {
+  width: 181px;
+  height: 136px;
+  text-align: right;
+  font: normal 44px/46px Flood Std;
+  color: #354463;
+  position: relative;
+  left: 8rem;
+
+}
 
 
 
@@ -1422,6 +1473,9 @@ top: 2rem;
   position: relative;
   left: 13rem;
 }
+
+
+
 
 
 }
