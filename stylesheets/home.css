@@ -497,7 +497,7 @@ a {
 
 .blue-event-section {
   background: #354463 0% 0% no-repeat padding-box;
-  width: 376px;
+  width: auto;
   height: 1324px;
   position: relative;
   top: 17rem;
@@ -522,6 +522,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  align-content: space-between;
 }
 
 .img-tree-planting {
@@ -529,6 +530,11 @@ a {
   width: 67%;
 }
 
+.img-tag-meeting {
+  width: 250px; 
+  height: 250xpx;  
+  align-self: center;
+}
 .title-text-event {
   width: 313px;
   height: 66px;
@@ -862,8 +868,30 @@ top: 2rem;
   left: 3rem;
 }
 
+.fancy-text-blue {
+  position: relative;
+  top: 2rem;
+  width: 32rem;
+  left: 4rem;
+}
+
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
