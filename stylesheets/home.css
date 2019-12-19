@@ -1081,6 +1081,23 @@ top: 2rem;
   color: #FFFFFF;
 }
 
+.blue-event-section {
+  height: 1095;
+}
+.subscribe-text {
+  width: 448px;
+  text-align: left;
+  position: relative;
+  right: 6rem;
+
+}
+
+.email-field-text {
+  width: 448px;
+}
+
+
+
 }
 
 
