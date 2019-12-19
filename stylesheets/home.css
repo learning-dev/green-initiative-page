@@ -498,7 +498,7 @@ a {
 .blue-event-section {
   background: #354463 0% 0% no-repeat padding-box;
   width: auto;
-  height: 1424px;
+  height: 1390px;
   position: relative;
   top: 17rem;
   align-self: center;
@@ -670,7 +670,7 @@ a {
 
 
 .subscribe-button {
-  width: 152px;
+  width: 150px;
   height: 50px;
   background: #354463 0% 0% no-repeat padding-box;
   border-radius: 100px;
@@ -1079,6 +1079,22 @@ top: 2rem;
   font: Bold 22px/28px Helvetica;
   letter-spacing: 0;
   color: #FFFFFF;
+}
+
+.blue-event-section {
+  height: 1090px;
+}
+
+.subscribe-text {
+  width: 448px;
+  text-align: left;
+  position: relative;
+  right: 6rem;
+
+}
+
+.email-field-text {
+  width: 448px;
 }
 
 }
