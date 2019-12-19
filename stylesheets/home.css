@@ -626,12 +626,6 @@ a {
   top: 0.5rem;
 }
 
-
-
-
-
-
-
 .event-sub-text-left {
   width: 313px;
   height: 128px;
@@ -657,9 +651,58 @@ a {
   align-self: center;
 }
 
+.torquise-block {
+  width: auto;
+  height: 216px;
+  position: relative;
+  top: 15rem;
+  background: #C1F7D5 0% 0% no-repeat padding-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.email-field {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
 
+.subscribe-button {
+  width: 152px;
+  height: 50px;
+  background: #354463 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+}
 
+.subscribe-text {
+  width: 322px;
+  height: 78px;
+  text-align: left;
+  font: Bold 22px/28px Helvetica;
+  letter-spacing: 0;
+  color: #354463;
+  align-self: center;
+}
+
+.email-field-text {
+  width: 213px;
+  height: 40px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  font: lighter 16px/20px Helvetica;
+  text-align: center;
+}
+
+
+.subs-text {
+  text-align: center;
+  font: Bold 16px/19px Helvetica;
+  letter-spacing: 0;
+  color: #C1F7D5;
+  align-self: center;
+}
 
 
 
