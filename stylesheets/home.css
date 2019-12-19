@@ -498,7 +498,7 @@ a {
 .blue-event-section {
   background: #354463 0% 0% no-repeat padding-box;
   width: auto;
-  height: 1324px;
+  height: 1424px;
   position: relative;
   top: 17rem;
   align-self: center;
@@ -564,13 +564,88 @@ a {
   font: normal 27px/1px Helvetica;
   letter-spacing: 0.56px;
   color: #354463;
-  position: relative;
+  
   top: 4rem;
+  z-index: 5;
 }
 
 .event-button-text {
   position: relative;
   bottom: .5rem;
+}
+
+.event-button-left {
+  width: 160px;
+  height: 40px;
+  margin-bottom: 48px;  
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  text-align: center;
+  font: normal 27px/1px Helvetica;
+  letter-spacing: 0.56px;
+  color: #354463;
+  position: relative;
+  left: 5rem;
+  top: 4rem;
+  z-index: 6;
+}
+
+.event-button-text-left {
+  position: relative;
+  bottom: .5rem;
+  top: 1.5rem;
+}
+
+
+.readmore-button-left {
+  background: #C1F7D5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  width: 152px;
+  height: 40px;
+  font: Bold 16px/20px Helvetica;
+  letter-spacing: 0;
+  color: #354463;
+  position: relative;
+  left: 2rem;
+  bottom: 3rem;
+}
+
+
+
+.readmore-text-left {
+  position: relative;
+  left: 2rem;
+  top: 0.5rem;
+}
+
+
+
+
+
+
+
+.event-sub-text-left {
+  width: 313px;
+  height: 128px;
+  font: lighter 14px/17px Helvetica;
+  letter-spacing: -0.16px;
+  color: #FFFFFF;
+  align-self: center;
+  position: relative;
+  left: 1.6rem;
+}
+
+
+.div-img-meeting{
+  align-items: center;
+  position: relative;
+  left: 3rem;
+}
+
+
+.img-tag-meeting {
+  width: 250px;
+  height: 250px;
+  align-self: center;
 }
 
 
@@ -875,6 +950,75 @@ top: 2rem;
   left: 4rem;
 }
 
+.img-tree-planting {
+  height: 50%;
+  width: 67%;
+  position: absolute;
+  top: 10rem;
+  right: 15rem;
+}
+
+.tree-planting-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  padding-left: 15rem;
+}
+
+.tree-planting-section-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  padding-right: 15rem;
+}
+
+.div-img-meeting {
+  position: absolute;
+  left: 28rem;
+  top: 34rem;
+}
+
+.event-sub-text-left {
+  align-self: auto;
+  width: 313px;
+  height: 128px;
+  font: lighter 14px/17px Helvetica;
+  letter-spacing: -0.16px;
+  color: #FFFFFF;
+  padding-left: 15px;
+}
+
+.readmore-button-left {
+  position: relative;
+  top: 0rem;
+  left: 1rem;
+  background: #C1F7D5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  width: 152px;
+  height: 40px;
+  font: Bold 16px/20px Helvetica;
+  letter-spacing: 0;
+  color: #354463;
+}
+
+.readmore-button {
+  top: 0;
+  left: 0;
+}
+
+
+.event-button-text-left  {
+  position: relative;
+  top: -0.5rem;
+}
+
+
+.readmore-text-left {
+  left: 2rem;
+  top: -0.5rem;
+}
 
 }
 
