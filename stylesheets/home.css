@@ -1108,16 +1108,6 @@ top: 2rem;
 
 
 
-
-
-
-
-
-
-
-
-
-
 /*For larger screen PC */
 
  @media only screen  and (min-width: 800px) {
@@ -1418,6 +1408,22 @@ top: 2rem;
   left: 21rem;
   bottom: 21rem;
 }
+
+.subscribe-text {
+  text-align: left;
+  font: Bold 28px/36px Helvetica;
+  letter-spacing: 0;
+  color: #354463;
+  width: 544px;
+}
+
+.email-field-text {
+  width: 400px;
+  position: relative;
+  left: 13rem;
+}
+
+
 }
 
  
