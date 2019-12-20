@@ -23,15 +23,181 @@ h1 {
   }
 
 
-  .top-right-text {    
-    font: normal 30px/46px Flood Std;
-    width: 314px;
-    text-align: center;
-    color: #FFFFFF;
-    padding-top: 10px;
-  }
+.top-right-text {    
+  font: normal 30px/46px Flood Std;
+  width: 314px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 10px;
+}
 
+
+.blue-box-payinfo {
+  width: 312px;
+  height: 816px;
+  background: #354463 0% 0% no-repeat padding-box;
+  background-position: center;
+  position: relative;
+  left: 5%;
+  display: grid;
+  grid-template-rows: 50% 30% 20%;
+  justify-items: center;
+
+}
+
+.align-fields {
+  padding-top: 5%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 40px;
+
+}
+
+
+
+.payinfo-title {
+  width: 249px;
+  height: 27px;
+  text-align: left;
+  font: Bold 22px/28px Helvetica;
+  color: #FFFFFF;
+}
+
+.info-title {
+  font: normal 11px/13px Helvetica;
+  letter-spacing: 0.44px;
+}
+
+.name-section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 20px;
   
+}
+
+.city-state {
+  display: grid;
+  grid-template-columns: 40% 15% 30%;
+  grid-gap: 25px;
+}
+
+
+
+.fieldspace-city {
+  background-color:  #354463;
+  letter-spacing: -0.16px;
+  font: lighter 16px/24px Helvetica;
+  width: 60px;
+  color: #C1F7D5;
+  border-style: solid;
+  border-top: 1px #C1F7D5;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.fieldspace{
+  background-color:  #354463;
+  letter-spacing: -0.16px;
+  font: lighter 16px/24px Helvetica;
+  width: 88px;
+  color: #C1F7D5;
+  border-style: solid;
+  border-top: 1px #C1F7D5;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.fieldspace-zipcode {
+  background-color:  #354463;
+  letter-spacing: -0.16px;
+  font: lighter 16px/24px Helvetica;
+  width: 40px;
+  color: #C1F7D5;
+  border-style: solid;
+  border-top: 1px #C1F7D5;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.fieldspace-state {
+  background-color:  #354463;
+  letter-spacing: -0.16px;
+  font: lighter 16px/24px Helvetica;
+  width: 40px;
+  color: #C1F7D5;
+  border-style: solid;
+  border-top: 1px #C1F7D5;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.fieldspace-cvv {
+  background-color:  #354463;
+  letter-spacing: -0.16px;
+  font: lighter 16px/24px Helvetica;
+  color: #C1F7D5;
+  border-style: solid;
+  border-top: 1px #C1F7D5;
+  border-left: 0px;
+  border-right: 0px;
+  width: 30px;
+}
+
+.click-info {
+  width: 249px;
+  height: 83px;
+  text-align: left;
+  font: Bold 17px/21px Helvetica;
+}
+
+
+.address-width {
+  width: 230px
+}
+
+
+.payment-btn {
+  width: 249px;
+  height: 49px;
+  background: #C1F7D5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+}
+
+.pay-btn-text {
+  text-align: left;
+font: Bold 16px/20px Helvetica;
+letter-spacing: 0;
+color: #354463;
+position: relative;
+top: 1rem;
+left: 4rem;
+}
+
+.go-back-link {
+  text-align: left;
+  text-decoration: underline;
+  font: lighter 14px/24px Helvetica;
+  letter-spacing: -0.14px;
+  color: #C1F7D5;
+  position: relative;
+  bottom: 0.5rem;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     /* For Tablet */
@@ -67,6 +233,24 @@ h1 {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
