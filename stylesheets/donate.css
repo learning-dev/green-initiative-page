@@ -464,6 +464,26 @@ left: 2rem;
  }
 
 
+ .footer-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+}
+.footer-section-title {
+  width: 100px;
+  height: 14px;
+  text-align: left;
+  font: normal 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+}
+.stylist-text-footer {
+  left: 2rem;
+  bottom: 1rem;
+}
+
+
+
 }
 
 
