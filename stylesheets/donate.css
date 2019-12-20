@@ -315,29 +315,8 @@ left: 2rem;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*For larger screen PC */
 @media only screen  and (min-width: 800px) {
-
-
 
   .background-img-section {
     background: transparent url('/img/annie-spratt-427340-unsplash-\(1\).png') 0% 0% no-repeat padding-box;
@@ -359,14 +338,70 @@ left: 2rem;
     }
 
 
-    .top-right-text {
-      position: absolute;
-      top: 150px;
-      right: 165px;
-      width: 384px;
-      height: 362px;
-      font: normal 72px/76px Flood Std;
-    }
+  .top-right-text {
+    position: absolute;
+    top: 150px;
+    right: 165px;
+    width: 384px;
+    height: 362px;
+    font: normal 72px/76px Flood Std;
+  }
+
+  .blue-box-payinfo {
+    width: 640px;
+    height: 1016px;
+    position: relative;
+    top: 8rem;
+    left: 5rem;
+  }
+
+  .payinfo-title {
+    width: 300px;
+    height: 28px;
+    text-align: left;
+    font: Bold 28px/36px Helvetica;
+  }
+
+  .name-section {
+    grid-gap: 70px ;
+  }
+
+  .city-state {
+    grid-gap:  70px;
+  }
+
+  .fieldspace {
+    width: 160px;
+  }
+
+  .address-width {
+    width: 400px;
+  }
+
+  .click-info {
+    width: 510px;
+    position: relative;
+    right:  5rem;
+    top: 2rem;
+  }
+
+  .align-fields {
+    position: relative;
+    right: 5rem;
+  }
+
+  .payment-btn {
+    position: relative;
+    left: 12rem ;
+    top: 3rem;
+  }
+
+ .go-back-link {
+  position: relative;
+  right: 5rem;
+ }
+
+
 }
 
 
