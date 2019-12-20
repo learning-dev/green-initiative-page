@@ -72,7 +72,6 @@ h1 {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-gap: 20px;
-  
 }
 
 .city-state {
@@ -222,15 +221,92 @@ left: 4rem;
     }
 
 
-    .top-right-text {    
-      font: normal 44px/46px Flood Std;
-      width: 512px;
-      height: 104px;
-      text-align: center;
-      color: #FFFFFF;
-      padding-top: 20px;
-      padding-left: 6rem;
-    }
+.top-right-text {    
+  font: normal 44px/46px Flood Std;
+  width: 512px;
+  height: 104px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 20px;
+  padding-left: 6rem;
+}
+
+.blue-box-payinfo {
+  width: 640px;
+  height: 1016px;
+  position: relative;
+  top: 3rem;
+}
+
+.payinfo-title {
+  width: 300px;
+  height: 28px;
+  text-align: left;
+  font: Bold 28px/36px Helvetica;
+}
+
+.info-title {
+  font: normal 14px/17px Helvetica;
+  letter-spacing: 0.56px;
+}
+
+.name-section {
+  grid-gap: 40px ;
+}
+
+.city-state {
+  grid-gap:  60px;
+}
+
+.fieldspace {
+  text-align: left;
+  font: lighter 20px/32px Helvetica;
+  letter-spacing: -0.4px;
+  width: 160px;
+}
+
+.address-width {
+  width: 360px;
+}
+
+.click-info {
+  width: 512px;
+  height: 89px;
+  text-align: left;
+  font: Bold 28px/36px Helvetica;
+  position: relative;
+  right:  5rem;
+}
+
+
+.align-fields {
+  position: relative;
+  right: 5rem;
+}
+
+
+.pay-btn-text {
+  text-align: left;
+  font: Bold 22px/28px Helvetica;
+position: relative;
+top: 0.5rem;
+left: 2rem;
+}
+
+.payment-btn {
+  position: relative;
+  left:10rem ;
+}
+
+.go-back-link {
+  width: 60px;
+  height: 16px;
+  font: lighter 16px/56px Helvetica;
+  letter-spacing: -0.16px;
+  position: relative;
+  bottom: 4rem;
+  right: 3rem;
+}
 
 }
 
