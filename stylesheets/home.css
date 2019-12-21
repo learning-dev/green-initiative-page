@@ -186,7 +186,7 @@ a {
   height: 1850px;
   background: #354463 0% 0% no-repeat padding-box;
   position: relative;
-  top: 16.9rem;
+  top: 15.9rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -955,6 +955,7 @@ top: 2rem;
   padding-right: 4pc;
   grid-template-rows: 1.8fr 1fr 1fr 1fr 1fr .1fr;
   grid-gap: 2.5rem;
+  transform: translateY(-1rem);
 }
 
 .climate-change-text {
@@ -1320,6 +1321,7 @@ top: 2rem;
   padding-right: 20pc;
   grid-template-rows: 1.8fr 1fr 1fr 1fr 1fr .1fr;
   grid-gap: 2.5rem;
+  transform: translateY(-1rem);
 }
 
 .climate-change-text {
