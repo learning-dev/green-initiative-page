@@ -4,6 +4,8 @@ html, body {
 
 body {
   width:100%;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -291,6 +293,18 @@ a {
   color: #354463;
 }
 
+
+
+.readmore-button-next {
+  background: #C1F7D5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  width: 152px;
+  height: 40px;
+  font: Bold 16px/20px Helvetica;
+  letter-spacing: 0;
+  color: #354463;
+}
+
 .readmore-text {
   position: relative;
   text-align: center;
@@ -500,6 +514,7 @@ a {
   position: relative;
   top: 17rem;
   align-self: center;
+  
 }
 
 
@@ -1125,7 +1140,7 @@ top: 2rem;
 }
 
 .blue-event-section {
-  height: 1095;
+  height: 850px;
 }
 .subscribe-text {
   width: 448px;
@@ -1279,6 +1294,12 @@ top: 2rem;
   grid-row: 1;
   grid-gap: 0rem;
   padding: 4rem;
+}
+
+.readmore-button-next {
+  position: relative;
+  bottom: 16rem;
+  right: 4rem;
 }
 
 .another-small-blue-box {
