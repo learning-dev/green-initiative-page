@@ -234,6 +234,12 @@ left: 4rem;
 }
 
 
+.padding-class {
+  display: block;
+  padding-bottom: 8px;
+}
+
+
 
 
 
@@ -369,6 +375,10 @@ left: 2rem;
   left:  22rem;
   padding-bottom: 5rem; 
 }
+.padding-class {
+  display: block;
+  padding-bottom: 8px;
+}
 
 }
 
@@ -482,8 +492,10 @@ left: 2rem;
   bottom: 1rem;
 }
 
-
-
+.padding-class {
+  display: block;
+  padding-bottom: 8px;
+}
 }
 
 
