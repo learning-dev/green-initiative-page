@@ -5,13 +5,15 @@
   }
 
 
+
+
 .background-img-section {
   background: transparent url('/img/annie-spratt-unsplash-mobile.png') 0% 0% no-repeat padding-box;
   opacity: 1;
   width: auto;
-  height: 985px;
-  background-position: center;
-  
+  height: auto;
+  background-size: cover;
+  padding: 0 2rem;
 }
 
 
@@ -28,20 +30,22 @@ h1 {
   width: 314px;
   text-align: center;
   color: #FFFFFF;
-  padding-top: 10px;
+  padding: 1rem 0;
+  margin: 0 auto;
 }
 
 
 .blue-box-payinfo {
-  width: 312px;
-  height: 816px;
+  height: 900px;
   background: #354463 0% 0% no-repeat padding-box;
   background-position: center;
-  position: relative;
-  left: 5%;
   display: grid;
   grid-template-rows: 50% 30% 20%;
   justify-items: center;
+  margin: 0 auto;
+  position: relative;
+  bottom: 1rem;
+
 
 }
 
@@ -396,6 +400,8 @@ left: 2rem;
     background-position: center;
     
   }
+
+
   
 
  h1 {
@@ -410,7 +416,7 @@ left: 2rem;
 
   .top-right-text {
     position: absolute;
-    top: 150px;
+    top: 130px;
     right: 165px;
     width: 384px;
     height: 362px;
@@ -421,8 +427,8 @@ left: 2rem;
     width: 640px;
     height: 1016px;
     position: relative;
-    top: 8rem;
-    left: 5rem;
+    top: 7rem;
+    right: 15rem;
   }
 
   .section-title {
