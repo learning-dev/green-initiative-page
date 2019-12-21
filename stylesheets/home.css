@@ -917,7 +917,7 @@ top: 2rem;
 .readmore-button-one {
   font: Bold 18px/22px Helvetica;
   position: absolute;
-  top: 48rem;
+  top: 40rem;
   right: 27rem;
   width: 156px;
   height: 47px;
@@ -931,8 +931,8 @@ top: 2rem;
   position: absolute;
   width: 156px;
   height: 47px;
-  left: 9.5rem;
-  top: 78.5rem;
+  left: 10.5rem;
+  top: 74.5rem;
 }
 
 .readmore-button-three {
@@ -943,7 +943,7 @@ top: 2rem;
   width: 156px;
   height: 47px;
   left: 10.5rem;
-  top: 109rem;
+  top: 107rem;
 }
 
 .did-you-know-button{
