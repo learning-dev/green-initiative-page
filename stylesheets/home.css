@@ -65,7 +65,6 @@ a {
   background-size: 100% 100%;
   height: 40rem;
   position: relative;
-  bottom: 1rem;
  }
 
  .sylish-right-text {
@@ -493,14 +492,6 @@ a {
   align-self: center;
 }
 
-.readmore-button-next{
-  background: #C1F7D5 0% 0% no-repeat padding-box;
-  border-radius: 100px;
-  font: Bold 18px/22px Helvetica;
-  width: 156px;
-  height: 47px;
-  align-self: center;
-}
 
 .blue-event-section {
   background: #354463 0% 0% no-repeat padding-box;
@@ -662,7 +653,7 @@ a {
   width: auto;
   height: 216px;
   position: relative;
-  top: -28rem;
+  top: 15rem;
   background: #C1F7D5 0% 0% no-repeat padding-box;
   display: flex;
   flex-direction: column;
@@ -700,7 +691,6 @@ a {
   border-radius: 100px;
   font: lighter 16px/20px Helvetica;
   text-align: center;
-  border: 0px;
 }
 
 
@@ -719,7 +709,8 @@ a {
   align-items: center;
   justify-items: center;
   position: relative;
-  top: -20rem;
+  grid: 2rem;
+  top: 16rem;
 }
 
 .footer-title-text {
@@ -1051,7 +1042,7 @@ top: 2rem;
 .tree-planting-section {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-content: space-between;
   padding-left: 15rem;
 }
@@ -1140,7 +1131,6 @@ top: 2rem;
   text-align: left;
   font: normal 14px/17px Helvetica;
   letter-spacing: 0.56px;
-  position: relative;
 }
 
 .stylist-text-footer {
@@ -1184,7 +1174,7 @@ top: 2rem;
 
   .donate-button {
     border-radius: 100px;
-    top: -8rem;
+    top: -7rem;
     width: 160px;
     height: 48px;
     position: relative;
@@ -1201,9 +1191,7 @@ top: 2rem;
 
    div.background-image {
     background: transparent url('/img/annie-spratt-135307-unsplash-home.png') 0% 0% no-repeat padding-box;
-    position: relative;
-    bottom: 8rem;
-  }
+   }
 
    .sylish-right-text {
       position: relative;
@@ -1294,7 +1282,6 @@ top: 2rem;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  top: 7.9rem;
 }
 
 .button-what-we-do {
@@ -1319,8 +1306,6 @@ top: 2rem;
   padding-right: 20pc;
   grid-template-rows: 1.8fr 1fr 1fr 1fr 1fr .1fr;
   grid-gap: 2.5rem;
-  position: relative;
-  top: -14rem;
 }
 
 .climate-change-text {
@@ -1349,7 +1334,7 @@ top: 2rem;
 
 .image-white-section {
   position: relative;
-  top: -12rem;
+  top: 17rem;
   width: 500px;
   height: 1000px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -1363,17 +1348,19 @@ top: 2rem;
 }
 
 .lady-baby {
+
   margin-left: 110%;
   width: 576px;
   height: 568px;
+  margin-top: 28%;
 
 }
 
 .blue-button-stories {
   width: 160px;
   height: 40px;
-  top: 4.5rem;
-  left: 43rem;
+  top: 12.5rem;
+  left: 42rem;
 }
 
 
@@ -1382,17 +1369,9 @@ top: 2rem;
   height: 22%;
   position: absolute;
   left: 16rem;
-  top: 14rem;
-  text-align: left;
+  top: 20rem;
   
 }
-
-.about-farmer-main-text {
-  position: relative;
-  left: 2rem;
-  width: 83%;
-}
-
 
 .about-farmer-text {
   text-align: center;
@@ -1400,15 +1379,10 @@ top: 2rem;
   letter-spacing: 0.44px;
 }
 
-.readmore-button {  
-    position: relative;
-    bottom: 24rem;
-    left: 10rem;
-}
-
-.readmore-button-next {
+.readmore-button {
   position: relative;
-  bottom: 15rem;
+  bottom: 18rem;
+  left: 5rem;
 }
 
 
@@ -1472,8 +1446,8 @@ top: 2rem;
 
 
 .readmore-button-left{
-  left: 24rem;
-  bottom: 19rem;
+  left: 21rem;
+  bottom: 21rem;
 }
 
 .subscribe-text {
@@ -1488,7 +1462,6 @@ top: 2rem;
   width: 400px;
   position: relative;
   left: 13rem;
-  border: 0px;
 }
 
 .footer-section {
@@ -1507,10 +1480,6 @@ top: 2rem;
 .stylist-text-footer {
   left: 2rem;
   bottom: 1rem;
-}
-
-.blue-event-section {
-  top: -28rem;
 }
 
 
