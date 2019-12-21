@@ -852,6 +852,7 @@ a {
     font: lighter 16px/24px Helvetica;
     letter-spacing: -0.16px;
     color: #354463;
+    transform: translateY(-15px);
   }
 
   .another-small-blue-box {
