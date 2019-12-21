@@ -44,7 +44,7 @@ a {
  .donate-text {
   font: Bold 18px/22px Helvetica;
   color: #354463;
-  bottom: 10px;
+  top: 10px;
   position: relative;
   width: 120px;
   left: 100px;
@@ -53,12 +53,11 @@ a {
  .donate-button {
   background: #C1F7D5 0% 0% no-repeat padding-box;
   border-radius: 100px;
-  top: 150px;
+  top: 0px;
   width: 312px;
-  position: absolute;
-  bottom: 100px;
+  position: relative;
   height: 40px;
-  left: 1.2rem;
+  left: 5%;
  }
 
  div.background-image {
@@ -66,7 +65,6 @@ a {
   background-size: 100% 100%;
   height: 40rem;
   position: relative;
-  top: 2rem;
  }
 
  .sylish-right-text {
@@ -760,28 +758,9 @@ a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
    /*For Tablet */
 
- @media only screen  and (min-width: 500px) and  (max-width: 768px) {
+ @media only screen  and (min-width: 768px) and  (max-width: 992px) {
   .links-container {
     flex-direction: row;
     height: 70px;
@@ -793,10 +772,9 @@ a {
   }
 
   .donate-button {
-    top: 3.5rem;
     left: 564px;  
-    width: 140px;
-    height: 48px;
+    width: 140px; 
+    transform: translateY(-100px);
   }
 
   .donate-text {
@@ -1157,7 +1135,7 @@ top: 2rem;
 
 .stylist-text-footer {
   left:  22rem;
-  padding-bottom: 5rem;
+  padding-bottom: 5rem; 
 }
 
 
@@ -1173,7 +1151,7 @@ top: 2rem;
 
 /*For larger screen PC */
 
- @media only screen  and (min-width: 800px) {
+ @media only screen  and (min-width: 993px) {
 
   h1 {
     font: Bold 22px/28px Helvetica;
@@ -1196,17 +1174,17 @@ top: 2rem;
 
   .donate-button {
     border-radius: 100px;
-    top: 61px;
+    top: -7rem;
     width: 160px;
     height: 48px;
-    position: absolute;
+    position: relative;
     bottom: 91px;
     left: 73.2rem;
    }
 
    .donate-text {
     font: Bold 18px/22px Helvetica;
-    bottom: 5px;
+    top: 11px;
     position: relative;
     left: 20px;
    }
