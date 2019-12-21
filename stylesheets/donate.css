@@ -246,15 +246,8 @@ left: 4rem;
 
 
 
-
-
-
-
-
-
-
     /* For Tablet */
-@media only screen  and (min-width: 500px) and  (max-width: 768px) {
+@media only screen  and (min-width: 768px) and  (max-width: 992px) {
 
 
   .background-img-section {
@@ -298,6 +291,11 @@ left: 4rem;
   text-align: left;
   font: Bold 28px/36px Helvetica;
 }
+
+.section-title {
+  transform: translate(-25%);
+}
+
 
 .info-title {
   font: normal 14px/17px Helvetica;
@@ -388,7 +386,7 @@ left: 2rem;
 
 
 /*For larger screen PC */
-@media only screen  and (min-width: 800px) {
+@media only screen  and (min-width: 993px) {
 
   .background-img-section {
     background: transparent url('/img/annie-spratt-427340-unsplash-\(1\).png') 0% 0% no-repeat padding-box;
@@ -425,6 +423,10 @@ left: 2rem;
     position: relative;
     top: 8rem;
     left: 5rem;
+  }
+
+  .section-title {
+    transform: translate(-25%);
   }
 
   .payinfo-title {
