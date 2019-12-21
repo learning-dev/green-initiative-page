@@ -1024,6 +1024,18 @@ top: 2rem;
   left: 3rem;
 }
 
+.readmore-button-next {
+  background: #C1F7D5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  font: Bold 18px/22px Helvetica;
+  width: 156px;
+  height: 47px;
+  align-self: center;
+  position: relative;
+  top: 2rem;
+  left: 3rem;
+}
+
 .fancy-text-blue {
   position: relative;
   top: 2rem;
