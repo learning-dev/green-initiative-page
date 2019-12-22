@@ -1050,7 +1050,7 @@ top: 2rem;
   height: 47px;
   align-self: center;
   position: relative;
-  top: 2rem;
+  top: 0rem;
   left: 3rem;
 }
 
@@ -1104,7 +1104,7 @@ top: 2rem;
 .readmore-button-left {
   position: relative;
   top: 0rem;
-  left: 1rem;
+  left: 3rem;
   background: #C1F7D5 0% 0% no-repeat padding-box;
   border-radius: 100px;
   width: 152px;
